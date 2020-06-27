@@ -8,11 +8,30 @@ body {
   margin-left: 20%;
 }
 
-h1 {}
+h1 {
+  font-weight: lighter;
+}
 
-p {}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: silver;
+}
 
-strong {
-    font-style: italic;
-    text-transform: uppercase;
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
 }
