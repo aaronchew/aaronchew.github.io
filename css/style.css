@@ -28,22 +28,18 @@ h1 {
   background-color: Gainsboro;
 }
 
-li {
-  display: inline;
-  float: left;
-}
 
-li a {
+.menubar a {
+  float: left;
   display: block;
   color: black;
-  text-align: center;
   padding: 5px 25px;
   text-decoration: none;
   border-bottom-style: solid;
   border-bottom-color: Gainsboro;
 }
 
-li a:hover {
+.menubar a:hover {
   border-bottom-color: black;
-  border-bottom-style: dotted;
+  border-bottom-style: solid;
 }
